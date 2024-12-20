@@ -5,7 +5,8 @@
   "scripts": {
     "start": "node server.js",
     "dev": "nodemon server.js",
-    "lint": "eslint . --ext .js,.jsx",
+    "lint": "eslint '**/**/*.{js,ts}'",
+    "format": "prettier --write '**/**/*.{js,json,ts}'",
     "prettier": "prettier --write .",
     "prettier:check": "prettier --check .",
     "prepare": "cd .. && husky frontend/.husky"

@@ -7,11 +7,8 @@
     "lint:frontend": "eslint frontend/src --ext .js,.jsx,.ts,.tsx",
     "lint:backend": "eslint backend/src --ext .js,.jsx,.ts,.tsx",
     "prettier:check": "prettier --check .",
-    "prettier:fix": "prettier --write ."
-  },
-  "lint-staged": {
-    "frontend/**/*.js": ["eslint --fix", "prettier --write"],
-    "backend/**/*.js": ["eslint --fix", "prettier --write"]
+    "prettier:fix": "prettier --write .",
+    "prepare": "husky"
   },
   "keywords": [],
   "author": "",

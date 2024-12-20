@@ -7,7 +7,8 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "lint": "eslint src --ext .js,.jsx",
+    "lint": "eslint 'src/**/*.{js,jsx}'",
+    "format": "prettier --write 'src/**/*.{js,css,jsx}'",
     "prettier": "prettier --write .",
     "prettier:check": "prettier --check .",
     "prepare": "cd .. && husky frontend/.husky"
