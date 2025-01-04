@@ -3,30 +3,25 @@
 @tailwind utilities;
 
 *{
-    font-family: sans-serif;
+    font-family: serif;
+    font-weight: 600;
     color: white;
     }
-    .lugrasimo-regular {
-        font-family: sans-serif;
-        font-weight: 400;
-        font-style: normal;
-        
-      }
     
-      .profile{
-          background-color: #2C2828;
-      }
+      /* .profile{
+          background-color: white;
+      } */
 
-      .stats{
-        background-color: #2C2828;
-        opacity: 48%;
-      }
-      .leaderboard{
-        background-color: #2C2828;
-        opacity: 48%;
+      /* .stats{
+        background-color: white;
+        opacity: 30%;
+      } */
+      /* .leaderboard{
+        background-color: white;
+        opacity: 30%;
       }
       .questions{
-        background-color: #2C2828;
-        opacity: 48%;
+        background-color: white;
+        opacity: 30%;
         
-      }
+      } */

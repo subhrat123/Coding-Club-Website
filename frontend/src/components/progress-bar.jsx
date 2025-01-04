@@ -2,9 +2,9 @@ import React from 'react';
 
 // const ProgressBar = ({ percentage}) => {
 const ProgressBar = () => {
-  const percentage = 70;
+  const percentage = 50;
   const radius = 45; // Radius of the circle
-  const stroke = 8; // Stroke width
+  const stroke = 4; // Stroke width
   const normalizedRadius = radius - stroke / 2; // Adjust for stroke
   const circumference = normalizedRadius * 2 * Math.PI; // Circle circumference
   const strokeDashoffset = circumference - (percentage / 100) * circumference; // Offset for progress
