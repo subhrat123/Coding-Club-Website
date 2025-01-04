@@ -1,3 +1,27 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+*{
+    font-family: serif;
+    font-weight: 600;
+    color: white;
+    }
+    
+      /* .profile{
+          background-color: white;
+      } */
+
+      /* .stats{
+        background-color: white;
+        opacity: 30%;
+      } */
+      /* .leaderboard{
+        background-color: white;
+        opacity: 30%;
+      }
+      .questions{
+        background-color: white;
+        opacity: 30%;
+        
+      } */
