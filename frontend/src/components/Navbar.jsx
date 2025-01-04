@@ -3,7 +3,7 @@ import React from 'react';
 const Nav = () => {
   return (
     <>
-      <div className="nav z-10 p-1 fixed bg-black text-white flex justify-around w-full items-center">
+      <div className="nav z-10 p-1 fixed bg-slate-950 shadow-black shadow-md text-white flex justify-around w-full items-center">
         <div className="logo flex justify-center items-center">
           <a href="/">
             <img className="h-16 w-20" src="/cc.jpg" alt="cc image" />
