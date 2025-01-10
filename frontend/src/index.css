@@ -2,26 +2,30 @@
 @tailwind components;
 @tailwind utilities;
 
-*{
-    font-family: serif;
-    font-weight: 600;
+.font-Roboto{
+    font-family: "Roboto", Orbitron, Roboto Mono;
+    font-weight: 500;
     color: white;
+    letter-spacing: 0.1rem;
     }
-    
-      /* .profile{
-          background-color: white;
-      } */
 
-      /* .stats{
-        background-color: white;
-        opacity: 30%;
-      } */
-      /* .leaderboard{
-        background-color: white;
-        opacity: 30%;
+    .font-poppins{
+        font-family: "Poppins";
+        font-weight: 600;
       }
-      .questions{
-        background-color: white;
-        opacity: 30%;
-        
-      } */
+    
+      .hide-scrollbar::-webkit-scrollbar {
+        display: none;
+      }
+      
+      .hide-scrollbar {
+        -ms-overflow-style: none;  /* IE and Edge */
+        scrollbar-width: none;  /* Firefox */
+      }
+     
+.glassmorphism {
+  background: rgba(255, 255, 255, 0.061);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
