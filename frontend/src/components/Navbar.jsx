@@ -3,14 +3,18 @@ import React from 'react';
 const Nav = () => {
   return (
     <>
-      <div className="nav z-10 p-1 fixed bg-slate-950 shadow-black shadow-md text-white flex justify-around w-full items-center">
-        <div className="logo flex justify-center items-center">
+      <div className="nav font-Roboto z-10 p-1 bg-black fixed shadow-inherit shadow-md text-white flex justify-around w-full items-center">
+        <div className="logo flex h-16 gap-4 justify-center items-center">
           <a href="/">
-            <img className="h-16 w-20" src="/cc.jpg" alt="cc image" />
+            <img
+              className="h-20 rounded-full w-20"
+              src="/cc.jpg"
+              alt="cc image"
+            />
           </a>
-          <h1 className=" text-xl ">Coding Club</h1>
+          <h1 className=" text-xl">Coding Club</h1>
         </div>
-        <nav className="menu ">
+        <nav className="menu">
           <ul className="flex gap-12">
             <a href="/">
               <li>Home</li>
