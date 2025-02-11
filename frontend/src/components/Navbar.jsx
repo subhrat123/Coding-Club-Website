@@ -14,7 +14,7 @@ const Nav = () => {
           </a>
           <h1 className=" text-xl">Coding Club</h1>
         </div>
-        <nav className="menu">
+        <nav className=" menu">
           <ul className="flex gap-12">
             <a href="/">
               <li>Home</li>
